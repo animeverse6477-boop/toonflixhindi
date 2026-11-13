@@ -100,7 +100,7 @@ jobs:
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
           ALLOWED_USERS: ${{ secrets.ALLOWED_USERS }}
           FIREBASE_URL: ${{ secrets.FIREBASE_URL }}
-          BASE_URL: https://proud-moon-7329.ayushkum099766.workers.dev
+          BASE_URL: https://tight-band-11f0.animemia533.workers.dev
           PORT: "8000"
           # ── auto-restart scheduler ──
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
