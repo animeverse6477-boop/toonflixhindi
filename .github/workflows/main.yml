@@ -100,6 +100,7 @@ jobs:
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
           ALLOWED_USERS: ${{ secrets.ALLOWED_USERS }}
           FIREBASE_URL: ${{ secrets.FIREBASE_URL }}
+          OLD_ROUTE_PREFIXES: "toonflixhindi"   # purane links (/toonflixhindi/dl/...) bhi convert honge
           BASE_URL: https://tight-band-11f0.animemia533.workers.dev
           PORT: "8000"
           # ── auto-restart scheduler ──
